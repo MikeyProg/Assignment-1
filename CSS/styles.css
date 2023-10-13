@@ -1,0 +1,79 @@
+/*Michael Whiting 999999*/
+
+body{
+    font-family: 16px, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+   background-color: gold;
+margin: 0%;
+padding: 20px;
+width:80%;
+}
+header{
+    border: 5px; 
+    border-radius: 10px;
+    padding: 10 px;
+    margin: 10 px
+    }
+    h1{
+        /*font color*/
+        color:coral;
+font-variant:small-caps
+    }
+h2{
+    /*font color*/
+    color:rgb(0, 0, 0);
+    font-variant:small-caps;
+}
+footer{
+
+ font-size:14px;
+ color:#bd1c1c   
+}
+#p1{
+    color :#840c0c
+}
+/* clear prperties for main and aside*/
+main{
+    float:left;
+    width: 66%;
+    padding: 10px
+}
+aside{
+    float: left;
+    width: 33%;
+    padding:10px
+}
+main:after
+aside:after{
+    content:""  ;
+  display:table;
+  clear:both;
+}
+.structural{
+margin :10px;
+padding:10px;
+border:10px solid black;
+}
+.mainimg img{
+    border: 15px solide #840c0c;
+    border-radius: 20px;
+}
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+q{
+font-family: cursive;
+font-style: italix;
+font-size: 1.2em;
+}
+ul li{
+    list-style-type:georgian;
+    line-height: 1.5;
+}
+ul>li>a{
+text-decoration-color: rgb(240, 240, 129);
+}
+aside a:hover{
+    color: darkorange;
+}
